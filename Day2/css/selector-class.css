@@ -1,0 +1,12 @@
+.section {
+  color: #333;
+  margin-bottom: 40px;
+}
+p.section-title {
+  font-size: 18px;
+}
+p.section-content {
+  font-size: 13px;
+  line-height: 13px;
+  color: #999;
+}
