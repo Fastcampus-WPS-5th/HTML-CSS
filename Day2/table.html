@@ -6,11 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Table</title>
   <style>
+    html, body {
+      font-size: 12px;
+      color: #333;
+    }
     table {
       border-collapse: collapse;
+      text-align: center;
     }
     th, td {
-      border: 1px solid #666;
+      border: 1px solid #999;
+      padding: 4px 8px;
     }
   </style>
 </head>
@@ -97,6 +103,38 @@
         <td colspan="5">Copyright @ ...</td>
       </tr>
     </tfoot>
+  </table>
+
+  <h3>Example</h3>
+  <table>
+    <thead>
+      <tr>
+        <td colspan="9">포켓몬스터의 전설의 포켓몬</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>지방</th>
+        <th colspan="2">메인 전설의 포켓몬</th>
+        <th colspan="6">그 외 전설의 포켓몬</th>
+      </tr>
+      <tr>
+        <td>관동지방</td>
+        <td colspan="2">뮤츠</td>
+        <td colspan="2">프리져</td>
+        <td colspan="2">썬더</td>
+        <td colspan="2">파이어</td>
+      </tr>
+      <!-- tr>(td*3)+(td[colspan=2])*3 -->
+      <tr>
+        <td>성도지방</td>
+        <td>칠색조</td>
+        <td>루기아</td>
+        <td colspan="2">라이코</td>
+        <td colspan="2">엔테이</td>
+        <td colspan="2">스이쿤</td>
+      </tr>
+    </tbody>
   </table>
 </body>
 </html>
