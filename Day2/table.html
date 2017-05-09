@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Table</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Table</h1>
+  <h3>Table basic, colspan</h3>
+  <!-- table>(tr>th*3)+(tr>td*3)*2 -->
+  <table>
+    <tr>
+      <th>이름</th>
+      <th>나이</th>
+      <th>점수</th>
+    </tr>
+    <tr>
+      <td>철수</td>
+      <td>23세</td>
+      <td>70점</td>
+    </tr>
+    <tr>
+      <td>영희</td>
+      <td>21세</td>
+      <td>89점</td>
+    </tr>
+    <tr>
+      <td colspan="2">평균</td>
+      <td>79.5점</td>
+    </tr>
+  </table>
+
+  <h3>rowspan</h3>
+  <!-- 오른쪽 구조를 emmet으로 한 번에 나올 수 있도록 작성 -->
+  <!-- table>(tr>td[rowspan=3]+td)+(tr>td)*2 -->
+  <table>
+    <tr>
+      <td rowspan="3">a</td>
+      <td>b</td>
+    </tr>
+    <tr>
+      <td>c</td>
+    </tr>
+    <tr>
+      <td>d</td>
+    </tr>
+  </table>
+
+  <h3>thead, tbody, tfoot</h3>
+  <!-- table>thead>tr>th*5 -->
+  <table>
+    <thead>
+      <tr>
+        <td colspan="5">주인공 스탯 정보</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>이름</th>
+        <th>나이</th>
+        <th>성별</th>
+        <th>성적</th>
+        <th>메모</th>
+      </tr>
+      <tr>
+        <td>홍길동</td>
+        <td>22세</td>
+        <td>남자</td>
+        <td>98점</td>
+        <td>잘생김</td>
+      </tr>
+      <tr>
+        <td>김춘향</td>
+        <td>19세</td>
+        <td>여자</td>
+        <td>99점</td>
+        <td>예쁨</td>
+      </tr>
+      <tr>
+        <td colspan="3">평균</td>
+        <td>87</td>
+        <td></td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5">Copyright @ ...</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
