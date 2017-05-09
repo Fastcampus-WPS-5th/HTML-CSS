@@ -25,5 +25,41 @@
     <input type="radio" name="radio-name" value="b">
     <input type="submit" value="전송">
   </form>
+
+  <h3>Label</h3>
+  <!-- form>(div>label>input[type=text])+(div>label+input[type=text]) -->
+  <form action="">
+    <div>
+      <label>ID <input type="text"></label>
+    </div>
+    <div>
+      <label for="username">Username</label>
+      <input type="text" id="username">
+    </div>
+  </form>
+
+  <h3>select</h3>
+  <select name="number" id="" size="2" multiple>
+    <!-- option[value=$]*4 -->
+    <option value="1">First</option>
+    <option value="2">Second</option>
+    <option value="3">Third</option>
+    <option value="4">Fourth</option>
+  </select>
+
+  <h3>select - optgroup</h3>
+  <select name="optgroup-select" id="">
+    <!-- (optgroup[label=]>(option[value=]*3))*2 -->
+    <optgroup label="Fruits">
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+      <option value="orange">Orange</option>
+    </optgroup>
+    <optgroup label="Colors">
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+    </optgroup>
+  </select>
 </body>
 </html>
