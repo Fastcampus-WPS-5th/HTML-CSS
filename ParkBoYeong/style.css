@@ -5,6 +5,7 @@ body {
   font-size: 0.9rem;
   margin: 0;
   padding: 0.7rem;
+  line-height: 1rem;
 }
 a {
   color: #0275d8;
@@ -28,13 +29,16 @@ ul, ol {
 }
 
 table.wiki-table {
-  width: 100%;
+  /*width: 100%;*/
+  max-width: 600px;
+  margin: 0 auto;
   border: 2px solid #b38b6e;
   border-collapse: collapse;
+  margin-bottom: 20px;
 }
 table.wiki-table tr td {
   border: 1px solid #ccc;
-  padding: 6px;
+  padding: 0.3125rem;
   text-align: center;
 }
 table.wiki-table tr td:nth-child(1) {
@@ -49,4 +53,23 @@ table.wiki-table tr:nth-child(1) td {
 }
 table.wiki-table tr td img {
   max-width: 100%;
+}
+
+.table-of-contents {
+  border: 1px solid #ccc;
+  padding: 12px 20px 18px 20px;
+  margin-left: 5px;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.blockquote {
+  white-space: pre-line;
+  line-height: 1.3rem;
+  border: 2px dashed #ccc;
+  border-left: 5px solid #71BC6D;
+  padding: 10px;
+}
+.blockquote p {
+  margin: 0;
 }
