@@ -1,0 +1,7 @@
+h1 ~ ul {
+  color: red;
+}
+h1 + ul {
+  background-color: Azure;
+  color: DarkBlue;
+}

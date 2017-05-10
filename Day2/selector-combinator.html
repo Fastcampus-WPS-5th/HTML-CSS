@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .div1 {
+      background-color: red;
+      border: 3px solid black;
+    }
+    #wrap > .div1 {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <div id="wrap">
+    <span class="div1">
+      <span>Depth1</span>
+
+      <span class="div1">
+        <span>Depth2</span>
+      </span>
+    </span>
+  </div>
+</body>
+</html>
