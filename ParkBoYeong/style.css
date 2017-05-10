@@ -1,0 +1,52 @@
+html {
+  font-size: 16px;
+}
+body {
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0.7rem;
+}
+a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul, ol {
+  -webkit-padding-start: 20px;
+}
+
+.modified-date {
+  text-align: right;
+}
+.link-container {
+  margin-bottom: 20px;
+}
+.link-container * {
+  vertical-align: middle;
+}
+.link-container img.arrow {
+  height: 22px;
+}
+
+table.wiki-table {
+  width: 100%;
+  border: 2px solid #b38b6e;
+  border-collapse: collapse;
+}
+table.wiki-table tr td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: center;
+}
+table.wiki-table tr td:nth-child(1) {
+  background-color: #b38b6e;
+  color: white;
+}
+table.wiki-table tr td:nth-child(2) {
+  white-space: pre-line;
+}
+table.wiki-table tr:nth-child(1) td {
+  background-color: white;
+}
+table.wiki-table tr td img {
+  max-width: 100%;
+}
