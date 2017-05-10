@@ -73,3 +73,21 @@ table.wiki-table tr td img {
 .blockquote p {
   margin: 0;
 }
+
+.block, .inline, .inline-block {
+  border-width: 3px;
+  border-style: solid;
+}
+.block {
+  border-color: red;
+}
+.inline {
+  display: inline;
+  border-color: blue;
+  height: 50px;
+}
+.inline-block {
+  display: inline-block;
+  border-color: green;
+  height: 150px;
+}
