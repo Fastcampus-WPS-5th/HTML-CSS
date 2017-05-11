@@ -12,6 +12,10 @@ nav.top-nav {
       a {
         display: inline-block;
         height: $top-nav-height;
+
+        img {
+          vertical-align: middle;
+        }
       }
     }
   }
