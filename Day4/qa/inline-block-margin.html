@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .nomargin {
+      font-size: 0;
+    }
+    .inline-block {
+      display: inline-block;
+      width: 50%;
+      height: 50px;
+      /*margin: 10px;*/
+      box-sizing: content-box;
+      box-sizing: border-box;
+
+      border-width: 3px;
+      border-style: solid;
+      font-size: 0.9rem;
+    }
+    .box-red {
+      border-color: red;
+    }
+    .box-blue {
+      border-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="nomargin">
+    <div class="inline-block box-red">
+      ASDFASDF
+    </div>
+    <div class="inline-block box-blue">
+      SEFSEF
+    </div>
+  </div>
+</body>
+</html>

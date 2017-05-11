@@ -1,0 +1,25 @@
+.float-frame {
+  width: 300px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 10px;
+  /*overflow: auto;*/
+  float: left;
+}
+.float-frame::after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.float-unit {
+  width: 50px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 0;
+  margin-right: 5px;
+  float: left;
+}

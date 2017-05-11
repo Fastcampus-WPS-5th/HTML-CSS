@@ -1,0 +1,23 @@
+p {
+  margin: 0;
+}
+#wrap {
+  position: relative;
+  width: 100%;
+  border: 1px solid black;
+  height: 100px;
+}
+.inner-box {
+  position: absolute;
+  top: 50%;
+  /*transform: translateY(-50%);*/
+  left: 50%;
+  /*transform: translateX(-50%);*/
+  transform: translate(-50%, -50%);
+
+  width: 150px;
+  background-color: green;
+  color: white;
+
+  text-align: center;
+}
