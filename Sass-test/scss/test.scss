@@ -1,0 +1,26 @@
+@import 'variables';
+
+// Sass처음
+// 주석이다
+div.container {
+  padding: 15px;
+  margin: 0;
+  color: $color-red;
+
+  // 여러줄
+  // 주석
+  // 입니다
+  > p#main-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  /*
+  CSS와 같게 하고싶다
+  */
+  > .fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+}

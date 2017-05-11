@@ -1,0 +1,20 @@
+@charset "UTF-8";
+div.container {
+  padding: 15px;
+  margin: 0;
+  color: #3f3f3f;
+  /*
+  CSS와 같게 하고싶다
+  */
+}
+
+div.container > p#main-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+div.container > .fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
