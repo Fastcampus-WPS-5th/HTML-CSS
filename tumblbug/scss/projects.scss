@@ -1,0 +1,18 @@
+$top-nav-height: 60px;
+
+nav.top-nav {
+  background-color: white;
+  height: $top-nav-height;
+  ul {
+    li {
+      height: $top-nav-height;
+      line-height: $top-nav-height;
+      float: left;
+
+      a {
+        display: inline-block;
+        height: $top-nav-height;
+      }
+    }
+  }
+}
