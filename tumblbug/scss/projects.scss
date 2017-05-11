@@ -1,8 +1,10 @@
+@import 'variables';
 $top-nav-height: 60px;
 
 nav.top-nav {
   background-color: white;
   height: $top-nav-height;
+  padding: 0 32px;
   ul {
     li {
       height: $top-nav-height;
@@ -12,6 +14,14 @@ nav.top-nav {
       a {
         display: inline-block;
         height: $top-nav-height;
+        padding: 0 10px;
+        box-sizing: border-box;
+        transition: 120ms;
+
+        &:hover {
+          color: $color-theme;
+          border-bottom: 1px solid $color-theme;
+        }
 
         img {
           vertical-align: middle;
