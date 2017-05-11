@@ -10,7 +10,6 @@ nav.top-nav {
       height: $top-nav-height;
       line-height: $top-nav-height;
       float: left;
-
       a {
         display: inline-block;
         height: $top-nav-height;
@@ -18,13 +17,14 @@ nav.top-nav {
         box-sizing: border-box;
         transition: 120ms;
 
-        &:hover {
-          color: $color-theme;
-          border-bottom: 1px solid $color-theme;
-        }
-
         img {
           vertical-align: middle;
+        }
+      }
+      &.menu-item {
+        a:hover {
+          color: $color-theme;
+          border-bottom: 1px solid $color-theme;
         }
       }
     }
