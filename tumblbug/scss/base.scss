@@ -1,11 +1,16 @@
+@import 'variables';
 html {
 
 }
 body {
-  background-color: #ebeae5;
+  background-color: $color-bg-common;
 }
 ul, ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+a {
+  text-decoration: none;
+  color: $color-text-a;
 }
