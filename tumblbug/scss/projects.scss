@@ -74,13 +74,26 @@ nav.top-nav {
   }
 }
 section.container-section ul.project-list {
-
   li.project-card {
     float: left;
-    width: 240px;
-    height: 50px;
-    background-color: red;
-    border: 1px solid black;
+    width: 220px;
+    margin: 0 10px;
+    // height: 50px;
+    background-color: rgba(0,0,255,0.2);
+    // border: 1px solid black;
     box-sizing: border-box;
+
+    p { margin: 0; }
+
+    img.card-image {
+      max-width: 100%;
+    }
+    .card-top {
+      height: 139px;
+      padding: 13px 19px 0;
+    }
+    .card-bottom {
+
+    }
   }
 }
