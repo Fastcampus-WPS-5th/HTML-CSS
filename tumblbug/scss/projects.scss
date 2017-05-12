@@ -64,13 +64,13 @@ nav.top-nav {
   section.container-section {
     float: left;
     width: 720px;
-    background-color: rgba(255, 0, 0, 0.3);
+    // background-color: rgba(255, 0, 0, 0.3);
   }
   aside.container-aside {
     float: left;
     margin-left: 20px;
     width: 220px;
-    background-color: rgba(0, 255, 0, 0.3);
+    // background-color: rgba(0, 255, 0, 0.3);
   }
 }
 section.container-section ul.project-list {
@@ -78,8 +78,9 @@ section.container-section ul.project-list {
     float: left;
     width: 220px;
     margin: 0 10px;
+    background-color: #fff;
     // height: 50px;
-    background-color: rgba(0,0,255,0.2);
+    // background-color: rgba(0,0,255,0.2);
     // border: 1px solid black;
     box-sizing: border-box;
 
@@ -91,6 +92,22 @@ section.container-section ul.project-list {
     .card-top {
       height: 139px;
       padding: 13px 19px 0;
+      border-bottom: 3px solid $color-theme;
+
+      p.card-title {
+        font-size: 14px;
+        line-height: 1.375;
+        color: $color-text-h;
+      }
+      p.card-owner {
+        font-size: 13px;
+        line-height: 1.6;
+        color: $color-text-h;
+      }
+      p.card-description {
+        font-size: 13px;
+        line-height: 1.7;
+      }
     }
     .card-bottom {
 

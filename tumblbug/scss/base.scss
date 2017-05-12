@@ -4,11 +4,15 @@ html {
 }
 body {
   background-color: $color-bg-common;
+  color: $color-text-common;
 }
 ul, ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: $color-text-h;
 }
 a {
   text-decoration: none;
