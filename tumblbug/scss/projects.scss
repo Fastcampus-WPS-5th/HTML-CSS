@@ -30,6 +30,18 @@ nav.top-nav {
       }
       &.menu-search {
         margin: 0 10px 0 0;
+        transition: 1s;
+        input {
+          display: none;
+          width: 0;
+        }
+
+        &:hover {
+          input {
+            display: inline-block;
+            width: 100px;
+          }
+        }
       }
       &.menu-item {
         a {
@@ -65,6 +77,10 @@ nav.top-nav {
     float: left;
     width: 720px;
     // background-color: rgba(255, 0, 0, 0.3);
+
+    header {
+      margin: 0 10px;
+    }
   }
   aside.container-aside {
     float: left;
@@ -77,7 +93,7 @@ section.container-section ul.project-list {
   li.project-card {
     float: left;
     width: 220px;
-    margin: 0 10px;
+    margin: 0 10px 26px;
     background-color: #fff;
     // height: 50px;
     // background-color: rgba(0,0,255,0.2);
@@ -110,7 +126,30 @@ section.container-section ul.project-list {
       }
     }
     .card-bottom {
+      padding: 13px 19px;
+      .card-bottom-section {
+        float: left;
+        font-size: 12px;
 
+        p.card-bottom-title {
+          margin-bottom: 0.5em;
+        }
+        p.card-bottom-content {
+          color: $color-text-h;
+          font-weight: 500;
+
+          .card-bottom-content-percent {
+            color: $color-theme;
+            margin-left: 5px;
+          }
+        }
+      }
+      .card-bottom-left {
+        width: 70%;
+      }
+      .card-bottom-right {
+        width: 30%;
+      }
     }
   }
 }

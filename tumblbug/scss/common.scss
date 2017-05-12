@@ -1,5 +1,9 @@
 @import "variables";
-
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
 .btn {
   box-sizing: border-box;
   border: 2px solid $color-text-common;
