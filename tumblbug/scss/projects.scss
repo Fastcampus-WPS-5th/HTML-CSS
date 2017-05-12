@@ -20,7 +20,7 @@ nav.top-nav {
       line-height: $top-nav-height;
       float: left;
 
-      &.menu-logo {
+      &.menu-logo, &.menu-search {
         img {
           vertical-align: middle;
         }
