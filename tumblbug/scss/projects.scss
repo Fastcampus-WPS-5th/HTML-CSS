@@ -54,3 +54,22 @@ nav.top-nav {
     }
   }
 }
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 39px;
+  padding-bottom: 78px;
+
+  section.container-section {
+    float: left;
+    width: 720px;
+    background-color: rgba(255, 0, 0, 0.3);
+  }
+  aside.container-aside {
+    float: left;
+    margin-left: 20px;
+    width: 220px;
+    background-color: rgba(0, 255, 0, 0.3);
+  }
+}
