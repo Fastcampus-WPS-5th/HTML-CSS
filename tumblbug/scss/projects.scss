@@ -25,6 +25,12 @@ nav.top-nav {
           vertical-align: middle;
         }
       }
+      &.menu-logo {
+        margin: 0 20px 0 0;
+      }
+      &.menu-search {
+        margin: 0 10px 0 0;
+      }
       &.menu-item {
         a {
           display: inline-block;
@@ -41,6 +47,9 @@ nav.top-nav {
             border-bottom: 1px solid $color-theme;
           }
         }
+      }
+      &.menu-btn {
+        margin: 0 0 0 10px;
       }
     }
   }
