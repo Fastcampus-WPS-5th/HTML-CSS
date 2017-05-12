@@ -73,3 +73,14 @@ nav.top-nav {
     background-color: rgba(0, 255, 0, 0.3);
   }
 }
+section.container-section ul.project-list {
+
+  li.project-card {
+    float: left;
+    width: 240px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+}
