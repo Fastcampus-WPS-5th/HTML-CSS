@@ -6,25 +6,40 @@ nav.top-nav {
   height: $top-nav-height;
   padding: 0 32px;
   ul {
+    height: $top-nav-height;
+
+    &.top-nav-left-list {
+      float: left;
+    }
+    &.top-nav-right-list {
+      float: right;
+    }
+
     li {
       height: $top-nav-height;
       line-height: $top-nav-height;
       float: left;
-      a {
-        display: inline-block;
-        height: $top-nav-height;
-        padding: 0 10px;
-        box-sizing: border-box;
-        transition: 120ms;
 
+      &.menu-logo {
         img {
           vertical-align: middle;
         }
       }
       &.menu-item {
-        a:hover {
-          color: $color-theme;
-          border-bottom: 1px solid $color-theme;
+        a {
+          display: inline-block;
+          height: $top-nav-height;
+          padding: 0 10px;
+          box-sizing: border-box;
+          transition: 120ms;
+
+          img {
+            vertical-align: middle;
+          }
+          &:hover {
+            color: $color-theme;
+            border-bottom: 1px solid $color-theme;
+          }
         }
       }
     }
